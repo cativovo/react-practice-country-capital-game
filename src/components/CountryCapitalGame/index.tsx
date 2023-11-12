@@ -88,6 +88,7 @@ const CountryCapitalGame: FC<Props> = (props) => {
           {v}
         </button>
       ))}
+      {buttons.length === 0 && <p>Congratulations</p>}
     </div>
   );
 };
