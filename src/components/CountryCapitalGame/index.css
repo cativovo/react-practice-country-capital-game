@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  gap: 4px;
+}
+
+.selected {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.error {
+  background-color: #ff5454;
+  color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
